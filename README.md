@@ -77,8 +77,13 @@ pip install -r requirements.txt
 cd mapReduce
 python run_job.py
 ```
+Dentro de la función Mapper, se extrae el mes desde la fecha, para emitir un par clave-valor con el mes como clave y la temperatura como valor.
 
-3. El resultado es guardado en `datos/salida/max_temp_mes.csv`. Para fines de este proyecto, fue cargado manualmente a HDFS.
+Luego, desde la función Reducer, se reciben todos los valores de temperatura agrupados por mes, para finalmente obtener la temperatura máxima correspondiente a cada mes.
+
+3. El resultado es guardado en `datos/salida/max_temp_mes.csv`.
+
+Para fines de este proyecto, el resultado fue cargado manualmente a HDFS.
 
 ---
 
@@ -128,6 +133,6 @@ El video puede visualizarse [aqui](https://www.canva.com/design/DAGpGF2MLng/rt8e
 
 ## Autora
 
-Paula Cerón
+Paulina Cerón Mancipe
 Proyecto final - Procesamiento Distribuido
 Junio 2025
