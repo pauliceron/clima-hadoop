@@ -219,12 +219,4 @@ Este proyecto demuestra exitosamente:
 **Paulina Cerón Mancipe**
 - **Proyecto final** - Procesamiento Distribuido
 - **Junio 2025**
-- **T.E. Telemática**
-
----
-
-**Si este proyecto te resulta útil, no olvides darle una estrella en GitHub!**
-
----
-
-*Desarrollado como proyecto final del curso de Procesamiento Distribuido - Tecnología en Telemática*
+- **Tópicos Especiales de Telemática**
